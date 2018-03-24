@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E560A2
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuousIntegrationDemo.Commons", "ContinuousIntegrationDemo.Commons\ContinuousIntegrationDemo.Commons.csproj", "{60E364E7-9B8C-49B7-9AD5-29451210BBB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{98074908-1CA0-42DD-ACD2-F6E15F934DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98074908-1CA0-42DD-ACD2-F6E15F934DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98074908-1CA0-42DD-ACD2-F6E15F934DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E364E7-9B8C-49B7-9AD5-29451210BBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E364E7-9B8C-49B7-9AD5-29451210BBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E364E7-9B8C-49B7-9AD5-29451210BBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E364E7-9B8C-49B7-9AD5-29451210BBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

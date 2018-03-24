@@ -97,6 +97,7 @@
     <Reference Include="System.Net.Http.WebRequest" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonsTests\CalculatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="Controllers\ValuesControllerTest.cs" />
@@ -108,6 +109,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ContinuousIntegrationDemo.Commons\ContinuousIntegrationDemo.Commons.csproj">
+      <Project>{60e364e7-9b8c-49b7-9ad5-29451210bbb4}</Project>
+      <Name>ContinuousIntegrationDemo.Commons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ContinuousIntegrationDemo\ContinuousIntegrationDemo.csproj">
       <Project>{C8086FAF-6AAB-4D77-A6E9-A84A736408C9}</Project>
       <Name>ContinuousIntegrationDemo</Name>

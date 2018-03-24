@@ -269,6 +269,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContinuousIntegrationDemo.Commons\ContinuousIntegrationDemo.Commons.csproj">
+      <Project>{60e364e7-9b8c-49b7-9ad5-29451210bbb4}</Project>
+      <Name>ContinuousIntegrationDemo.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
